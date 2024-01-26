@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Loader() {
+export default function Loader():any {
   return (
     <div role="status">
       <svg

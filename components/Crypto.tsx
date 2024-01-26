@@ -20,7 +20,7 @@ interface Props {
   };
 }
 
-function Crypto({ crypto }: Props) {
+function Crypto({ crypto }: Props): any {
   
   const colorclassName = crypto.prevPrice
     ? crypto.price > crypto.prevPrice
@@ -89,4 +89,4 @@ function Crypto({ crypto }: Props) {
   );
 }
 
-export default memo(Crypto);
+export default Crypto

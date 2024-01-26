@@ -3,7 +3,7 @@ import React from "react";
 import Crypto from "./Crypto";
 import { useTicker } from "../utils/hooks";
 
-export default function Ticker() {
+export default function Ticker():any {
   const cryptocurrencies = useTicker()
   
   return (

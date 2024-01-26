@@ -30,7 +30,7 @@ const useTicker = () => {
       console.log(error)
     }
   },[cryptocurrencies])
-  console.log(cryptocurrencies)
+  // console.log(cryptocurrencies)
   useEffect(()=>{
     const interval = setInterval( fetchcrypto ,1000)
     return ()=>clearInterval(interval)

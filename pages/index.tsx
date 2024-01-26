@@ -1,14 +1,15 @@
 import React from "react";
 import type { NextPage } from "next";
 
-import NoSSR from "../components/NoSSR";
+
 import Layout from "../components/Layout";
 import Ticker from "../components/Ticker";
 import Link from "next/link";
+import NoSSR from "../components/NoSSR";
 
 const Home: NextPage = () => {
   return (
-    <NoSSR>
+    
       <Layout>
         <div className="py-24 sm:py-24 lg:py-24">
           <div className="mx-auto max-w-7xl px-2 lg:px-4">
@@ -41,7 +42,7 @@ Introducing our cutting-edge cryptocurrency price tracker app — your ultimate 
           </div>
         </div>
       </Layout>
-    </NoSSR>
+
   );
 };
 
